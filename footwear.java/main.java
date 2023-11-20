@@ -5,6 +5,7 @@ public class main {
         pemilik_01.ukuran = 38;
         pemilik_01.merek = "Starz";
         pemilik_01.jenis();
+        pemilik_01.jenis("sneaker");
 	    pemilik_01.merek();
 
         sandal owner_01 = new sandal();
@@ -13,6 +14,7 @@ public class main {
         owner_01.merek = "Moon";
         owner_01.jenis();
         owner_01.merek();
+        owner_01.merek(2023);
     }
 }
 
